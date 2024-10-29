@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GFood Siap Melayani Anda</title>
-  <!-- Albert Octavianus -->
+  <title>Musa Haidar</title>
+  <!-- Musa Haidar -->
+  <link href="assets/img/2310091006-yD2nawc2.jpeg" rel="icon">
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
@@ -16,217 +17,236 @@
   <link rel="stylesheet" href="assets/Google-Font/stylesheet.css">
   
   <!-- My style -->
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style1.css">
   
 </head>
+<!--Main Navigation-->
 <body>
-  <!-- navbar -->
-   <section id="navbar">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">GFood</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+  <!-- Sidebar -->
+  <input type="checkbox" id="toggler" />
+  <aside class="aside-wrapper fixed-top">
+    <h1 class="logo-text" ><a style="text-decoration:none" href="#"><span >Musa Haidar</span></a><label  for="toggler"><i class="fas fa-bars sidebar-toggle"></i></label></h1>
+  
+    <ul>
+      <li><a style="text-decoration:none" href="#"><i class="fas fa-house"></i> <span>Home</span> </a> </li>
+      <li><a href="#aboutme"><i class="fas fa-user"></i> About Me </a> </li>
+      <li><a href="#riwayatpendidikan"><i class="fas fa-user"></i> Riwayat Pendidikan </a> </li>
+      <li><a href="#keterampilan"><i class="fas fa-user"></i> Keterampilan Skill </a> </li>
+      <li><a href="#"><i class="fas fa-user"></i> Kontak Saya </a> </li>
+    </ul><br>
+  
+    <!--<ul>
+      <li><i class="fas fa-headset"></i> Get Help</li>
+      <li><i class="fas fa-comment"></i> Chat With Us</li>
+    </ul>-->
+  </aside>
+
+  
+  <!-- Navbar -->
+  <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light fixed-top" > 
+    <div class="container-fluid"> 
+
+      <!-- foto pojok kiri atas -->
+      <a class="navbar-brand" href="#"><img src="assets/img/2310091006-yD2nawc2.jpeg" class="rounded-circle" height="50" alt=""/></a> 
+      <!-- end foto pojok kiri atas --> 
+
+      <ul class="navbar-nav ms-auto d-flex flex-row"> 
+
+        <!-- foto pojok kanan atas -->
+        <li class="nav-item dropdown">
+          <a href="#aboutme" > <img src="assets/img/2310011930-1XXwiNM2.jpeg" class="rounded-circle" height="50" width="50" alt=" " loading="lazy"/></a>
+        </li>
+        <!-- end foto pojok kanan atas -->
+
+      </ul>
+    </div> 
+  </nav>
+  <!-- Navbar -->
+
+
+<!--end Main Navigation-->
+
+<!--Main layout-->
+<main style="margin-top: 60px;">
+  <div class="container pt-4"></div>
+</main>
+<!--Main layout-->
+
+<!-- About me-->
+<section id="aboutme">
+  <div class="container">
+    <div class="row text-center">
+      <h2 class="display-4" style="color: white;"><b>Tugas UTS WEB Resume Online</b></h2>
+      <div class="card">
+        <h2 class="display-6"><b>About Me</b></h2>
+        <img src="assets/img/aboutme.jpg" class="rounded" width="250" height="250" >
+        <br>
+        <ul type="disk">
+            <li>Whatsapp : <a href='https://api.whatsapp.com/send?phone=6281280757181&text=Saya%20Melihat%20Ada%20Promo%20Di%20Website%20Musang%20King%20Traveler'>0812-8075-7181</a></li>
+            <li>Instagram : <a href='https://www.instagram.com/musahdr_/'>musangkingtraveler</a></li>
+            <li>Telpon: <a href='tel:6031112298'>0812-8075-7181</a></li>
+            <li>Email: <a href='mailto:rustyras001@gmail.com'>musangkingtraveler@gmail.com</a></li>
+        </ul>
+        <a class="tombol tombol-contact" href="tentangkami.html">tentang kami</a>
+      </div>
+    </div>
+  </div>
+</section><hr>
+<!--end About me-->  
+
+
+ 
+<!-- Riwayat Pendidikan -->
+<section id="riwayatpendidikan">
+  <div class="container">
+    <div class="row ">
+      <div class="card">
+        <div class="card-body">
+          <ol class="list-group list-group-numbered"> 
+            <div class="row text-center">
+              <h2 class="display-6"><b>Riwayat Pendidikan</b></h2>
+            </div>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Sekolah Dasar (SD)</div>
+                SDS PermataSari
+              </div>
+              <span class="badge text-bg-primary rounded-pill">2011-2017</span>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About us</a>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Sekolah Menengah Pertama (SMP)</div>
+                SMP Umum Nabila
+              </div>
+              <span class="badge text-bg-primary rounded-pill">2017-2020</span>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">menu</a>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Sekolah Menengah Kejuruan (SMK)</div>
+                SMKN 2 KAB Tangerang
+              </div>
+              <span class="badge text-bg-primary rounded-pill">2020-2023</span>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Promo</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn button" href="index.html">contact us</a>
-            </li>
-          </ul>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Calon Sarjana</div>
+                Global Institut
+              </div>
+              <span class="badge text-bg-primary rounded-pill">2023-Now</span>
+            </li> 
+          </ol>
         </div>
       </div>
-    </nav>
-  </section>
-  <!-- jumbotron -->
-   <section id="jumbotron">
-    <div class="jumbotron bg-body-tertiary rounded-3">
-    <div class="container py-5">
-      <h1 class="display-5"style="color:white">Rasakan Kelezatan <span>Daging Premium</span><br>dalam bentuk yang <span> Berbeda</span></h1>
-      <button class="btn button" type="button"><i class="fas fa-cart-shopping"></i> Order now</button>
+    </div>
+  </div>
+</section><hr>
+<!-- end sRiwayat Pendidikan -->
+    
+
+<!--Progres bar-->
+<section id="keterampilan">
+  <div class="container">
+    <div class="row ">
+      <div class="card">
+        <div class="card-body">
+          <ol class="list-group list-group-numbered"> 
+            <div class="row text-center">
+              <h2 class="display-6"><b>Keterampilan Skill</b></h2>
+              <p></p>
+            </div>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">CSS : </div>
+              </div>
+            </li>
+            <div class="progress">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"> 45%</div>
+            </div><hr>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">HTML : </div>
+              </div>
+            </li>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"> 60%</div>
+            </div><hr>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Microsoft Office : </div>
+              </div>
+            </li>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"> 85%</div>
+            </div><hr>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">CSS : </div>
+              </div>
+            </li>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"> 70%</div>
+            </div><hr>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Gaming : </div>
+              </div>
+            </li>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"> 90% </div>
+            </div><hr>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Racist : </div>
+              </div>
+            </li>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"> 80% </div>
+            </div><hr>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">My happiness when the project is finish : </div>
+              </div>
+            </li>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"> 100% </div>
+            </div>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </Div>
+</section>
+    
+<!--end Progres bar-->
+
+<!-- end Riwayat Pendidikan --> 
+
+<!-- Awal Footer -->
+<hr><section id="footer">
+  <div class="footer">
+  <div class="container">
+    <div class="row footer-body" >
+      <div class="col-md-6">
+        <div class="copyright" >
+        <strong>Copyright</strong> <i class="far fa-copyright" ></i> 2024 -  Musa Haidar</p>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 d-flex justify-content-end">
+      <span class="fa-2xl" >
+        <a href="https://api.whatsapp.com/send?phone=6281280757181"> <i class="fa-brands fa-square-whatsapp fa-xl" style="color: #00b315;"></i></td></a>
+        <a href="https://www.instagram.com/musahdr_/"> <i class="fa-brands fa-square-instagram fa-lg" style="color: #fb00bb;"></i></a>
+        <a href="https://www.youtube.com/@Musa-AlHaidar"> <i class="fa-brands fa-square-youtube  fa-sm" style="color: #ff0000;"></i></a>
+
+        <a href="https://api.whatsapp.com/send?phone=6281280757181"> <img src="assets/img/Icon/whatsapp.jpeg"  width="45" height="45" class="rounded" data-toggle="tooltip" title="whatsapp"></a>
+        <a href="https://www.instagram.com/musahdr_/"> <img src="assets/img/Icon/instagram.jpeg" width="45" height="45" class="rounded" data-toggle="tooltip" title="Instagram"></a>
+        <a href="https://www.youtube.com/@Musa-AlHaidar"> <img src="assets/img/Icon/youtube.jpeg" width="45" height="45" class="rounded" data-toggle="tooltip" title="youtube"><a>
+      </span>
+    </div>
     </div>
   </div>
 </section>
-  <!-- aboutus -->
-  <section id="aboutus">
-    <div class="container-fluid bg-light p-5">
-      <div class="row text-center">
-        <div class="col-12">
-          <h2 class="display-4 p-5"><b>Mengapa Memilih Kami?</b></h2>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3 p-5">
-          <span class="fa-stack fa-2x">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fas fa-plate-wheat fa-stack-1x fa-inverse"></i>
-          </span>
-          <h3 class="mt-4">Bahan Premium</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, voluptatum? Quos repellendus nemo nihil voluptate nam nesciunt aspernatur et ab!
-          </p>
-        </div>
+<!-- Akhir Footer -->
 
-        <div class="col-12 col-sm-6 col-lg-3 p-5">
-          <span class="fa-stack fa-2x">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fas fa-utensils fa-stack-1x fa-inverse"></i>
-          </span>
-          <h3 class="mt-4">Chef Berpengalaman</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, voluptatum? Quos repellendus nemo nihil voluptate nam nesciunt aspernatur et ab!
-          </p>
-        </div>
-
-        <div class="col-12 col-sm-6 col-lg-3 p-5">
-          <span class="fa-stack fa-2x">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fa-solid fa-money-bill fa-stack-1x fa-inverse"></i>
-          </span>
-          <h3 class="mt-4">Harga Terjangkau</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, voluptatum? Quos repellendus nemo nihil voluptate nam nesciunt aspernatur et ab!
-          </p>
-        </div>
-
-        <div class="col-12 col-sm-6 col-lg-3 p-5">
-          <span class="fa-stack fa-2x">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fa-solid fa-tree fa-stack-1x fa-inverse"></i>
-          </span>
-          <h3 class="mt-4">Ramah Lingkungan</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, voluptatum? Quos repellendus nemo nihil voluptate nam nesciunt aspernatur et ab!
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- menu -->
-  <section id="menu">
-  <div class="container p-5">
-    <div class="row text-center">
-      <div class="col-12 p-5">
-        <h2 class="display-4"><b>Menu Kami</b></h2>
-      </div>
-
-      <div class="col-12 col-lg-4 mb-3">
-        <div class="card"  >
-          <img src="assets/img/menu/bakso.webp" class="card-img-top"  alt=". . .">
-          <div class="card-body">
-            <h5 class="card-title">Bakso Bulat</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <div class="card-footer">
-            <a href="a" class="button"><i class="fas fa-cart-shopping"></i> Buy Now </a>
-        </div>
-      </div>
-    </div>
-      <div class="col-12 col-lg-4 mb-3">
-        <div class="card"  >
-          <img src="assets/img/menu/coffee.webp" class="card-img-top"  alt=". . .">
-          <div class="card-body">
-            <h5 class="card-title">Coffee</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <div class="card-footer">
-            <a href="a" class="button"><i class="fas fa-cart-shopping"></i> Buy Now </a>
-        </div>
-      </div>
-    </div>
-      <div class="col-12 col-lg-4 mb-3">
-        <div class="card"  >
-          <img src="assets/img/menu/jus.webp" class="card-img-top"  alt=". . .">
-          <div class="card-body">
-            <h5 class="card-title">Lemon Tea</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <div class="card-footer">
-            <a href="a" class="button"><i class="fas fa-cart-shopping"></i> Buy Now </a>
-        </div>
-      </div>
-    </div>
-      <div class="col-12 col-lg-4 mb-3">
-        <div class="card"  >
-          <img src="assets/img/menu/somay.webp" class="card-img-top"  alt=". . .">
-          <div class="card-body">
-            <h5 class="card-title">Dimsum</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <div class="card-footer">
-            <a href="a" class="button"><i class="fas fa-cart-shopping"></i> Buy Now </a>
-        </div>
-      </div>
-    </div>
-      <div class="col-12 col-lg-4 mb-3">
-        <div class="card"  >
-          <img src="assets/img/menu/tahu.webp" class="card-img-top"  alt=". . .">
-          <div class="card-body">
-            <h5 class="card-title">Tahu</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <div class="card-footer">
-            <a href="a" class="button"><i class="fas fa-cart-shopping"></i> Buy Now </a>
-        </div>
-      </div>
-    </div>
-      <div class="col-12 col-lg-4 mb-3">
-        <div class="card"  >
-          <img src="assets/img/menu/tea.webp" class="card-img-top"  alt=". . .">
-          <div class="card-body">
-            <h5 class="card-title">Tea</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <div class="card-footer">
-            <a href="a" class="button"><i class="fas fa-cart-shopping"></i> Buy Now </a>
-        </div>
-      </div>
-    </div>
-  </section>
-       
-  <!-- promo -->
-  <section id="promo">
-    <div class="container p-5">
-     <div class="row text-center">
-       <div class="col-12 p-3">
-         <h2 class="display-6"><b>Promo Terbaru</b></h2>
-       </div>
-       <div class="col-12 col-lg-3 mb-3">
-       <div class="card" >
-         <img src="assets/img/promo/1.webp"  >
-       </div>
-     </div>
- 
-     <div class="col-12 col-lg-3">
-       <div class="card" >
-         <img src="assets/img/promo/2.webp"  >
-       </div>
-     </div>
- 
-     <div class="col-12 col-lg-3">
-       <div class="card" >
-         <img src="assets/img/promo/3.webp"  >
-       </div>
-     </div>
- 
-     <div class="col-12 col-lg-3">
-       <div class="card" >
-         <img src="assets/img/promo/4.webp"  >
-       </div>
-     </div>
-   </section>       
-  
-  <!-- contactus -->
-   <section id="contactus"></section>
-
-  <!-- Bootstrap js -->
-  <script src="assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
