@@ -1,51 +1,96 @@
-.navbar-brand {
-    font-family: Viga;
-    font-size: 32px;
-    text-shadow: 0px 3px 4px rgba(0,0,0,0.6);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #c2c9d1;
+}
+nav {
+  box-shadow: 3px 1px 5px 0px #000000bf;
+  background-color: #34495e ;
+}
+aside h1 span{
+  font-size: 29px;
+  color: white;
+  text-decoration: none;
+}
+aside {
+  width: 250px;
+  height: 100vh;
+  background: #34495E;
+  position: fixed;
+
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  box-shadow: 3px 1px 5px 0px #000000bf;
 }
 
-.nav-link {
-    text-transform: uppercase;
-    margin-right: 30px;
+aside ul {
+  padding-inline-start: 0;
 }
 
-.nav-link:hover {
-    color: #0D6EFD;
+aside ul li {
+  list-style: none;
+  font-size: 15px;
+  padding: 20px 0;
+  cursor: pointer;
+  color: #fff;
 }
 
-.button {
-    background-color: #0D6EFD;
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 30px;
-    padding: 5px 10px;
+aside ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.button:hover {
-    background-color: #fff;
-    color: #0D6EFD;
+aside ul li .fas {
+  width: 20px;
 }
 
-.jumbotron {
-background-image: url(img/jumbotron.webp);
-height: 600px;
-background-position: bottom;
-background-repeat: no-repeat;
-background-size: cover;
-
+.aside-wrapper {
+  padding: 0 40px;
+  box-sizing: border-box;
 }
 
-.jumbotron .display-5{
-    color: #fff;
-    margin-top: 150px;
-    margin-bottom: 30px;
-    font-weight: 200px;
-    text-shadow: 0px 3px 4px rgba(0,0,0,0.6);;
-}
-.jumbotron .display-5 span{
-    font-weight: 500;
+.logo-text {
+  font-size: 32px;
+  position: relative;
 }
 
+.sidebar-toggle {
+  position: absolute;
+  top: 5px;
+  left: 205px;
+  background: #34495e;
+  padding: 4px 11px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
+input {
+  display: none;
+}
 
+/* Toggler Functionality */
+input:checked ~ aside {
+  left: -250px;
+}
 
+/*Footer*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #c2c9d1;
+  color: white;
+  text-align: center;
+}
+.footer-body {
+  margin-top: 20px;
+  color: white;
+}
+  /*end Footer*/
