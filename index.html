@@ -31,6 +31,7 @@
     <ul>
       <li><a style="text-decoration:none" href="#"><i class="fas fa-house"></i> <span>Home</span> </a> </li>
       <li><a href="#aboutme"><i class="fas fa-user"></i> About Me </a> </li>
+      <li><a href="#datadiri"><i class="fas fa-id-card"></i> Data Diri </a> </li>
       <li><a href="#riwayatpendidikan"><i class="fa-solid fa-graduation-cap"></i> Riwayat Pendidikan </a> </li>
       <li><a href="#keterampilan"><i class="fa-solid fa-chart-simple"></i> Keterampilan Skill </a> </li>
       <li><a href="#footer"><i class="fa-solid fa-address-book"></i> Kontak Saya </a> </li>
@@ -43,14 +44,14 @@
     <div class="container-fluid"> 
 
       <!-- foto pojok kiri atas -->
-      <a class="navbar-brand" href="#aboutme"><img src="assets/img/2310091006-yD2nawc2.jpeg" class="rounded-circle" height="50" alt=""/></a> 
+      <a class="navbar-brand" href="# "><img src="assets/img/2310091006-yD2nawc2.jpeg" class="rounded-circle" height="50" alt=""/></a> 
       <!-- end foto pojok kiri atas --> 
 
       <ul class="navbar-nav ms-auto d-flex flex-row"> 
 
         <!-- foto pojok kanan atas -->
         <li class="nav-item dropdown">
-          <a href="#aboutme" > <img src="assets/img/2310011930-1XXwiNM2.jpeg" class="rounded-circle" height="50"  alt=" " loading="lazy"/></a>
+          <a href="# " > <img src="assets/img/2310011930-1XXwiNM2.jpeg" class="rounded-circle" height="50"  alt=" " loading="lazy"/></a>
         </li>
         <!-- end foto pojok kanan atas -->
 
@@ -68,28 +69,54 @@
 </main>
 <!--Main layout-->
 
-<!-- About me-->
 <section id="aboutme">
   <div class="container">
     <div class="row text-center">
       <h2 class="display-4" style="color: white;"><b>Tugas UTS WEB Resume Online</b></h2>
       <div class="card">
-        <h2 class="display-6"><b>About Me</b></h2>
-        <img src="assets/img/aboutme.jpg" class="rounded" width="250" height="250" >
-        <ul type="disk">
-          <li>Whatsapp : <a href='https://api.whatsapp.com/send?phone=6281280757181&text=Saya%20Melihat%20Ada%20Promo%20Di%20Website%20Musang%20King%20Traveler'>0812-8075-7181</a></li>
-          <li>Instagram : <a href='https://www.instagram.com/musahdr_/'>musangkingtraveler</a></li>
-          <li>Telpon: <a href='tel:6031112298'>0812-8075-7181</a></li>
-          <li>Email: <a href='mailto:rustyras001@gmail.com'>musangkingtraveler@gmail.com</a></li>
-        </ul>
-        <a class="tombol tombol-contact" href="tentangkami.html">tentang kami</a>
+        <div class="card-body">
+          <h2 class="display-6"><b>About Me</b></h2>
+          <div class="d-flex flex-column flex-md-row"> <!-- flex-column untuk mobile dan flex-md-row untuk desktop -->
+            <div class="col-md-4 d-flex justify-content-center mb-3 mb-md-0">
+              <img src="assets/img/aboutme.jpg" class="rounded" width="250" height="250">
+            </div>
+            <div class="col-md-8">
+              <p>Mahasiswa jurusan SI(Sistem Informasi) dengan prodi SIM(Sistem Informasi Management) di Global Institut.<br>
+                Memiliki keterampilan dalam HTML, CSS, dan PHP. Selain itu, saya juga senang belajar hal baru dan senang
+                ketika mendapat masalah yang belum pernah saya temui.<br> Alasan mengapa saya senang ketika mendapati masalah
+                baru karena jika berhasil menyelesaikannya akan mendapatkan rasa puas tersendiri.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<!--end About me-->  
+<!--end About me-->
 
-
+<!-- Data Diri -->
+<hr><section id="datadiri">
+  <div class="container">
+    <div class="row ">
+      <div class="card">
+        <div class="card-body">
+          <div class="row text-center">
+            <h2 class="display-6"><b>Data Diri</b></h2>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item"><strong>Nama Lengkap:</strong> Musa Haidar</li>
+            <li class="list-group-item"><strong>Tempat, Tanggal Lahir:</strong> Gunung Kidul, 05-01-2005</li>
+            <li class="list-group-item"><strong>Alamat:</strong> Pasar Kemis</li>
+            <li class="list-group-item"><strong>Email:</strong> rustyras001@gmail.com</li>
+            <li class="list-group-item"><strong>Nomor Telepon:</strong> +62-812-8075-7181</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end Data Diri -->
  
 <!-- Riwayat Pendidikan -->
 <hr><section id="riwayatpendidikan">
@@ -151,7 +178,7 @@
             </div>
             <li class="list-group-item d-flex justify-content-between align-items-start">
               <div class="ms-2 me-auto">
-                <div class="fw-bold">CSS : </div>
+                <div class="fw-bold">PHP : </div>
               </div>
             </li>
             <div class="progress">
@@ -159,7 +186,7 @@
             </div><hr>
             <li class="list-group-item d-flex justify-content-between align-items-start">
               <div class="ms-2 me-auto">
-                <div class="fw-bold">HTML : </div>
+                <div class="fw-bold">CSS : </div>
               </div>
             </li>
             <div class="progress">
@@ -175,7 +202,7 @@
             </div><hr>
             <li class="list-group-item d-flex justify-content-between align-items-start">
               <div class="ms-2 me-auto">
-                <div class="fw-bold">CSS : </div>
+                <div class="fw-bold">HTML : </div>
               </div>
             </li>
             <div class="progress">
